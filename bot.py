@@ -14,7 +14,7 @@ from keep_alive import keep_alive
 
 # --- কনফিগারেশন ---
 BOT_TOKEN = "8224976419:AAEcWLWUtxSeTNNDcvTH0zP61fdfkQeU0KE" # ⚠️ আপনার টোকেন দিন
-SUPPORT_CHANNEL_LINK = "https://t.me/+XB1KZgMbSboxNWQ1"
+SUPPORT_CHANNEL_LINK = "https://t.me/+BZC7rsxopU85MzBl"
 UPDATES_CHANNEL_LINK = "https://t.me/+XB1KZgMbSboxNWQ1"
 
 # 👑 আপনার গড-লেভেল এডমিন আইডি
@@ -508,14 +508,14 @@ async def handle_join_request(update: Update, context: ContextTypes.DEFAULT_TYPE
                     f"✅ Your join request to <b>{title}</b> has been successfully approved!\n\n"
                     f"🔥 <b>A Special Gift for You:</b>\n"
                     f"Do you want to download videos and music (MP3) from TikTok, Facebook, YouTube, or Instagram without any <i>Watermark</i>?\n\n"
-                    f"👇 <i>Use our Premium Downloader Bot for completely free:</i>\n"
-                    f"👉 @PREMIUM_GROUP_BUY_BOT"
+                    f"👇 <i>Use our HD Movie Downloader Bot for completely free:</i>\n"
+                    f"👉 @Moviesda_search_group_HD"
                 )
                 final_msg = msg.replace("{user}", user_name).replace("{channel}", title) if msg else promo_msg
                 
                 bot_uname = context.bot.username
                 kb = [
-                    [InlineKeyboardButton("🔞 PREMIUM_GROUP_BUY_BOT", url="https://t.me/PREMIUM_GROUP_BUY_BOT")],
+                    [InlineKeyboardButton("🎬Tamil Movie Search Group #2k26❤️‍🩹 #HD", url="https://t.me/Moviesda_search_group_HD")],
                     [InlineKeyboardButton("↗️ Add me to a channel!", url=f"https://t.me/{bot_uname}?startchannel=true&admin=invite_users")],
                     [InlineKeyboardButton("➕ Add me to a group!", url=f"https://t.me/{bot_uname}?startgroup=true&admin=invite_users")]
                 ]
