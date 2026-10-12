@@ -376,7 +376,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         kb = [
             [InlineKeyboardButton(f"⚡ Approve All Pending ({pend})", callback_data=f"apprv_all_{chat_id}")],
             [InlineKeyboardButton("🟢 Auto Accept ON" if ac_status else "Auto Accept ON", callback_data=f"tgl_ac_on_{chat_id}"), 
-             InlineKeyboardButton("🔴 Auto Accept OFF" if not ac_status else "Auto Accept OFF", callback_data=f"tgl_ac_off_{chat_id}")],
+            [InlineKeyboardButton("🔴 Auto Accept OFF" if not ac_status else "Auto Accept OFF", callback_data=f"tgl_ac_off_{chat_id}")],
             [InlineKeyboardButton("✉️ Edit Welcome", callback_data=f"set_wel_{chat_id}"), InlineKeyboardButton("📊 Channel Stats", callback_data=f"ch_stats_{chat_id}")],
             [InlineKeyboardButton("📝 Post to this Channel", callback_data=f"usr_post_{chat_id}")],
             [InlineKeyboardButton("🔙 Back", callback_data="user_channels")]
