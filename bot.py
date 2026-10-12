@@ -13,7 +13,7 @@ from telegram.ext import (
 from keep_alive import keep_alive
 
 # --- কনফিগারেশন ---
-BOT_TOKEN = "8224976419:AAEcWLWUtxSeTNNDcvTH0zP61fdfkQeU0KE" # ⚠️ আপনার টোকেন দিন
+BOT_TOKEN = "8224976419:AAHAVVD0ecCMY6q0dR2hJYs8aNfFLvbNtp0" # ⚠️ আপনার টোকেন দিন
 SUPPORT_CHANNEL_LINK = "https://t.me/+BZC7rsxopU85MzBl"
 UPDATES_CHANNEL_LINK = "https://t.me/+XB1KZgMbSboxNWQ1"
 
