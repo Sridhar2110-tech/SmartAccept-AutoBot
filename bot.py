@@ -397,7 +397,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         with sqlite3.connect(DB_NAME) as conn:
             conn.execute("UPDATE channels SET auto_accept = 0 WHERE chat_id = ?", (chat_id,))
             conn.commit()
-        query.data = f"manage_{chat_id}"
+        await manage_channel(update, context, chat_id)
         await button_handler(update, context)
         
     elif data.startswith("ch_stats_"):
