@@ -13,12 +13,12 @@ from telegram.ext import (
 from keep_alive import keep_alive
 
 # --- কনফিগারেশন ---
-BOT_TOKEN = "8690240616:AAEQnAQ63t_oTrkZGDqe8xTYIB5ebrmh3ao" # ⚠️ আপনার টোকেন দিন
-SUPPORT_CHANNEL_LINK = "https://t.me/Grp_Sale_999"
-UPDATES_CHANNEL_LINK = "https://t.me/+Ial-E3ydfKQzMjc1"
+BOT_TOKEN = "8224976419:AAEcWLWUtxSeTNNDcvTH0zP61fdfkQeU0KE" # ⚠️ আপনার টোকেন দিন
+SUPPORT_CHANNEL_LINK = "https://t.me/+XB1KZgMbSboxNWQ1"
+UPDATES_CHANNEL_LINK = "https://t.me/+XB1KZgMbSboxNWQ1"
 
 # 👑 আপনার গড-লেভেল এডমিন আইডি
-ADMIN_ID = 6836865426
+ADMIN_ID = 2057229350
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 DB_NAME = "fast_accepter.db"
